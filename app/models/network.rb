@@ -5,7 +5,7 @@ class Network < ActiveRecord::Base
     "We're sorry about passing on John Mulaney's pilot"
   end
   
-  def self.call_letters
+  def call_letters
     binding.pry
   end
   
