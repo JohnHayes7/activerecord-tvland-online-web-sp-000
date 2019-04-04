@@ -6,7 +6,7 @@ class Network < ActiveRecord::Base
   end
   
   def call_letters
-    @call_letters
+    x = @call_letters
     binding.pry
   end
   
