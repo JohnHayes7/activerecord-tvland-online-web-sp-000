@@ -10,4 +10,8 @@ class Show < ActiveRecord::Base
     
   end
   
+  def self.call_letters
+    
+  end
+  
 end
