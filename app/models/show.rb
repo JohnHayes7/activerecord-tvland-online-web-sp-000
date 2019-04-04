@@ -6,4 +6,8 @@ class Show < ActiveRecord::Base
     
   end
   
+  def network
+    
+  end
+  
 end
