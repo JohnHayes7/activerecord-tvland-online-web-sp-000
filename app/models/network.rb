@@ -6,6 +6,7 @@ class Network < ActiveRecord::Base
   end
   
   def call_letters
+    @call_letters
     binding.pry
   end
   
